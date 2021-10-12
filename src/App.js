@@ -1,11 +1,12 @@
-import Pokedex from "./Pokedex";
+
+import Pokegame from "./Pokegame";
 import './App.css';
 
 /** Renders a single Pokedex instance by passing in an array of objects for Pokemon */
 function App() {
   return (
     <div className="App">
-      <Pokedex 
+      <Pokegame 
       pokemonList = {[
         {id: 4,   name: 'Charmander', type: 'fire',     base_experience: 62},
         {id: 7,   name: 'Squirtle',   type: 'water',    base_experience: 63},
